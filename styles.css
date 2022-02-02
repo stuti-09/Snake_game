@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 100vh;
+    width:100vw;
+    position: absolute;
+}
+h1 {
+    color: black;
+    font-size: 70px;
+    align-content: center;
+    left: 40%;
+    top:5%;
+    position: absolute;
+  }
+a{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 40%;
+    left: 43%;
+    background-color: red;
+    font-size: 35px;
+    text-decoration: none;
+    color:black;
+    box-sizing: border-box;
+    line-height: 100px;
+    text-align: center;
+    transition-duration: 0.4s;
+  }
+  
+a:hover {
+    background-color: grey;
+    box-shadow: 5px 5px;
+    cursor: pointer;
+  }
